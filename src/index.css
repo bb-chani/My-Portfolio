@@ -690,6 +690,12 @@ section {
 .project-card p {
   color: var(--text-dim);
   font-size: 0.98rem;
+  margin-bottom: 12px;
+}
+.project-stats {
+  font-family: 'IBM Plex Mono';
+  font-size: 12px;
+  color: var(--text);
   margin-bottom: 18px;
 }
 .project-tags {
@@ -702,6 +708,15 @@ section {
 .btn.small {
   padding: 10px 16px;
   font-size: 12px;
+}
+.btn.primary {
+  background: var(--cyan);
+  color: #04140f;
+  font-weight: 600;
+}
+.btn.primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px -10px rgba(52, 227, 208, 0.55);
 }
 .project-progress {
   display: flex;
