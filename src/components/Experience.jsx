@@ -6,118 +6,78 @@ const COLLAPSED_COUNT = 4;
 
 const ENTRIES = [
   {
-    range: "2025 — Present",
-    company: "Sena Technologies",
-    badge: "Current",
-    title: "Information Security Analyst — IAM & User Access Support",
+    range: 'Feb 2025 – Present',
+    company: 'Sena Technologies',
+    badge: 'Current',
+    title: 'Security Operations Analyst',
     points: [
       <>
-        Support identity and access management across internal business systems,
-        including account access, MFA, Microsoft&nbsp;365, Active Directory,
-        Azure/Entra&nbsp;ID, and <b>user authentication issues</b>.
+        Monitor and triage <b>40+ security alerts daily</b> in Splunk, Microsoft
+        Sentinel, CrowdStrike Falcon, and Microsoft Defender for Endpoint across
+        endpoint, identity, network, and cloud sources.
       </>,
       <>
-        Manage <b>15–25 IAM, access, and technical support requests weekly</b>,
-        prioritizing by business impact, urgency, and user access needs.
+        Write and tune SPL and KQL queries and develop Sigma rules, contributing
+        to a <b>15% reduction in false-positive alerts</b>.
       </>,
       <>
-        Support onboarding, offboarding, access changes, password resets, MFA
-        enrollment, and account provisioning so users have the{" "}
-        <b>right level of system access</b>.
+        Investigate endpoint detections using telemetry and VirusTotal, supporting
+        containment of <b>7 confirmed security incidents</b>.
       </>,
       <>
-        Coordinate IAM-related issue triage between users, technical support,
-        application teams, and higher-level support resources to drive{" "}
-        <b>timely resolution</b>.
+        Build Splunk SOAR playbooks for automated alert enrichment, investigation,
+        and response.
       </>,
       <>
-        Document access issues, troubleshooting steps, escalation notes, and
-        resolution outcomes in ticketing systems to support consistency and{" "}
-        <b>audit readiness</b>.
+        Automate security workflows in Python, including vulnerability-report
+        summarization and response drafting on the Claude API, with output
+        validated against source data.
       </>,
       <>
-        Assist with testing and validation of access changes, system updates,
-        and user-facing technology workflows before wider business use.
-      </>,
-      <>
-        Identify recurring access, authentication, and account-related issues
-        and share feedback to <b>improve IAM support processes</b> and the
-        overall user experience.
-      </>,
-      <>
-        Communicate with business users and stakeholders to explain access
-        requirements, resolve identity-related issues, and support smooth
-        technology adoption.
+        Investigate phishing and account-compromise activity using Entra ID
+        conditional access alerts and sign-in anomalies; map activity to MITRE
+        ATT&CK.
       </>,
     ],
   },
   {
-    range: "2022 — 2025",
-    company: "Goma Gold Miners",
-    badge: "3 yrs",
-    title: "Business Technology & Website Security Specialist",
+    range: 'Jan 2022 – Jan 2025',
+    company: 'Goma Gold Miners',
+    badge: '3 yrs',
+    title: 'Information Security Analyst',
     points: [
       <>
-        Administered company websites, hosting platforms, domain services, and
-        business applications while maintaining{" "}
-        <b>secure and reliable access</b> to digital resources.
+        Monitored network traffic across multiple sites and countries with
+        Darktrace, investigating detections and coordinating response, including
+        an extended overnight shift for cross-time-zone coverage.
       </>,
       <>
-        Managed user accounts, permissions, and administrative access across
-        websites and business systems — supporting <b>least-privilege access</b>{" "}
-        and account lifecycle management.
+        Owned the audit cycle end to end: evidence collection, Entra ID access
+        reviews under least privilege, and <b>10+ findings driven to closure</b>.
       </>,
       <>
-        Reviewed websites and business platforms for access-control issues,
-        configuration weaknesses, outdated software components, and{" "}
-        <b>potential security risks</b>.
+        Ran vulnerability assessments with Nessus and Nmap, aligned to NIST, PCI
+        DSS, and HIPAA.
       </>,
       <>
-        Coordinated with hosting providers, vendors, and internal stakeholders
-        to resolve website, access, and platform-related issues.
-      </>,
-      <>
-        Supported onboarding and offboarding by provisioning, updating, and
-        removing access to business applications, collaboration tools, and
-        digital platforms.
-      </>,
-      <>
-        Maintained technical documentation, user access records, system
-        configurations, and operational procedures to support continuity and{" "}
-        <b>audit readiness</b>.
+        Wrote security runbooks and playbooks, and introduced AI tooling that
+        cut documentation time roughly <b>40%</b>.
       </>,
     ],
   },
   {
-    range: "2018 — 2021",
-    company: "ESAT Computer Hub",
-    badge: "3 yrs",
-    title: "IT Support Technician — Systems, Access & Endpoint Support",
+    range: 'Jan 2018 – Dec 2021',
+    company: 'ESAT Computer Hub',
+    badge: '3 yrs',
+    title: 'IT Support Technician, Endpoint Security & Access',
     points: [
       <>
-        Diagnosed and resolved hardware, software, networking, malware, and{" "}
-        <b>user access issues</b> across Windows-based environments.
+        Resolved malware, endpoint, networking, and access issues across Windows
+        and Linux using log analysis and CLI diagnostics.
       </>,
       <>
-        Managed Active Directory accounts, password resets, access requests, and
-        Group Policy settings to support <b>secure user access</b> and system
-        administration.
-      </>,
-      <>
-        Supported user provisioning, permissions updates, workstation
-        deployment, PC imaging, OS installations, upgrades, and data migrations.
-      </>,
-      <>
-        Troubleshot Windows systems, DNS, DHCP, VPN, Wi-Fi, and network
-        connectivity issues to <b>restore productivity and reduce downtime</b>.
-      </>,
-      <>
-        Supported endpoint security and system maintenance, including malware
-        troubleshooting, patching, and basic security controls.
-      </>,
-      <>
-        Documented technical issues, troubleshooting steps, escalation notes,
-        and resolution details to support consistent service delivery.
+        Supported endpoint patching, managed Active Directory accounts and Group
+        Policy.
       </>,
     ],
   },

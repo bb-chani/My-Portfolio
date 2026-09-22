@@ -5,10 +5,10 @@ const prefersReducedMotion = () =>
   window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 const CRED_ROWS = [
-  { label: "ROLE", value: "IAM & Access Support" },
-  { label: "CERTIFICATION", value: "CompTIA Security+" },
-  { label: "EXPERIENCE", value: "7+ years" },
-  { label: "ACCESS LEVEL", value: "GRANTED", ok: true },
+  { label: "ROLE", value: "SOC Analyst" },
+  { label: "CERTIFICATION", value: "Security+" },
+  { label: "LOCATION", value: "Denton, TX (DFW)" },
+  { label: "REMOTE", value: "Open to remote", ok: true },
 ];
 
 /** Sequentially reveals the credential rows, then flips the VERIFIED badge on. */
@@ -44,34 +44,32 @@ export default function Hero() {
     <section className="hero" style={{ paddingTop: 64 }}>
       <div className="hero-text">
         <span className="eyebrow">
-          <span className="tick"></span>Information Security Analyst
+          <span className="tick"></span>Security Operations Analyst
         </span>
         <h1>Chani Boylen</h1>
         <p className="hero-sub">
-          <b>CompTIA Security+ certified</b> analyst specializing in Identity
-          &amp; Access Management — provisioning, MFA, and least-privilege
-          access across Microsoft&nbsp;365, Active Directory, and
-          Azure/Entra&nbsp;ID.
+          <b>Security+ certified analyst.</b> SIEM triage, detection
+          engineering, and automation.
         </p>
         <div className="meta-line">
           <span>
-            <span className="k">LOC:</span> Denton, TX
+            <span className="k">LOC:</span> Denton, TX (DFW)
           </span>
           <span>
-            <span className="k">FOCUS:</span> IAM &amp; Access Management
+            <span className="k">REMOTE:</span> Open to remote roles
           </span>
           <span>
-            <span className="k">CLEARANCE:</span> Security+
+            <span className="k">FOCUS:</span> SOC operations
           </span>
         </div>
-        {/* <div className="cta-row">
-          <a className="btn primary" href="#contact">
-            Request access <span className="arrow">→</span>
+        <div className="cta-row">
+          <a className="btn ghost" href="https://github.com/bb-chani" target="_blank" rel="noopener noreferrer">
+            View GitHub <span className="arrow">→</span>
           </a>
-          <a className="btn ghost" href="#experience">
+          <a className="btn primary" href="#experience">
             View experience
           </a>
-        </div> */}
+        </div>
       </div>
 
       <CredentialCard revealed={revealed} verified={verified} />
@@ -84,7 +82,7 @@ function CredentialCard({ revealed, verified }) {
     <div className="cred">
       <div className="cred-scan"></div>
       <div className="cred-head">
-        <span className="cred-tag">// IDENTITY RECORD</span>
+        <span className="cred-tag">// SECURITY PROFILE</span>
         <span className={`verified${verified ? " on" : ""}`}>
           <svg
             viewBox="0 0 24 24"
@@ -101,7 +99,7 @@ function CredentialCard({ revealed, verified }) {
         <div className="avatar">CB</div>
         <div>
           <div className="nm">Chani Boylen</div>
-          <div className="rl">Information Security Analyst</div>
+          <div className="rl">Security Operations Analyst</div>
         </div>
       </div>
       <div className="cred-rows">

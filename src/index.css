@@ -642,6 +642,87 @@ section {
   border-color: var(--line-strong);
 }
 
+/* ---------- PROJECTS ---------- */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+.project-card {
+  position: relative;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 24px;
+  background: var(--panel);
+  transition: 0.3s var(--ease);
+  min-height: 100%;
+}
+.project-card.featured {
+  border-color: var(--cyan);
+  background: linear-gradient(160deg, rgba(52, 227, 208, 0.08), var(--panel));
+}
+.project-card:hover {
+  border-color: var(--cyan);
+  transform: translateY(-4px);
+}
+.project-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line-strong);
+  background: rgba(52, 227, 208, 0.08);
+  color: var(--cyan);
+  font-family: 'IBM Plex Mono';
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.project-header h3 {
+  font-family: 'Space Grotesk';
+  font-weight: 600;
+  font-size: 1.3rem;
+  letter-spacing: -0.01em;
+  margin-bottom: 12px;
+}
+.project-card p {
+  color: var(--text-dim);
+  font-size: 0.98rem;
+  margin-bottom: 18px;
+}
+.project-tags {
+  margin-bottom: 18px;
+}
+.project-links {
+  display: flex;
+  justify-content: flex-start;
+}
+.btn.small {
+  padding: 10px 16px;
+  font-size: 12px;
+}
+.project-progress {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 18px;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.01);
+  color: var(--text-dim);
+  font-size: 0.94rem;
+}
+.project-progress-label {
+  font-family: 'IBM Plex Mono';
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--amber);
+}
+
 /* ---------- EXPERIENCE LOG ---------- */
 .timeline {
   display: flex;
@@ -957,6 +1038,9 @@ footer {
   }
   .skill-grid {
     grid-template-columns: 1fr 1fr;
+  }
+  .project-grid {
+    grid-template-columns: 1fr;
   }
   .cred-grid {
     grid-template-columns: 1fr;

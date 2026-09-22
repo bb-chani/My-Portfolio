@@ -39,46 +39,39 @@ const ICONS = {
 
 const SKILLS = [
   {
-    icon: 'lock',
-    name: 'Identity & Access',
-    tags: [
-      'Active Directory', 'Azure / Entra ID', 'MFA', 'User Provisioning',
-      'Access Controls', 'Group Policy', 'Least Privilege', 'Account Lifecycle',
-    ],
+    icon: 'chart',
+    name: 'SIEM & Detection',
+    tags: ['Splunk (SPL)', 'Microsoft Sentinel (KQL)', 'Sigma', 'YARA'],
   },
   {
     icon: 'shield',
-    name: 'Information Security',
-    tags: [
-      'Risk Assessment', 'Endpoint Security', 'MS Defender', 'Incident Response',
-      'Network Security', 'Patch Mgmt', 'Vulnerability Mgmt',
-    ],
+    name: 'EDR / NDR',
+    tags: ['CrowdStrike Falcon', 'Microsoft Defender for Endpoint', 'Darktrace'],
   },
   {
-    icon: 'chart',
-    name: 'Monitoring Tools',
-    tags: ['Splunk', 'Wireshark', 'Nmap', 'MS Defender', 'Event Viewer'],
-  },
-  {
-    icon: 'desktop',
-    name: 'Systems & Admin',
-    tags: [
-      'Microsoft 365', 'Windows 10/11', 'Windows Server', 'Linux',
-      'macOS', 'Kali Linux', 'Hyper-V', 'AWS Fundamentals',
-    ],
-  },
-  {
-    icon: 'globe',
-    name: 'Networking',
-    tags: [
-      'TCP/IP', 'DNS', 'DHCP', 'VPN', 'VLANs',
-      'Subnetting', 'Routing & Switching', 'Wi-Fi Diagnostics',
-    ],
+    icon: 'lock',
+    name: 'SOAR & Automation',
+    tags: ['Splunk SOAR', 'Python', 'PowerShell', 'Bash', 'JavaScript', 'SQL', 'REST APIs', 'Claude API'],
   },
   {
     icon: 'chat',
-    name: 'Ticketing & Collab',
-    tags: ['ServiceNow', 'Zendesk', 'MS Teams', 'Slack', 'Google Workspace'],
+    name: 'Threat Analysis & IR',
+    tags: ['MITRE ATT&CK', 'phishing analysis', 'malware behavior analysis', 'IOC analysis', 'threat hunting', 'digital forensics and chain of custody'],
+  },
+  {
+    icon: 'desktop',
+    name: 'Identity & Access',
+    tags: ['Microsoft Entra ID', 'Active Directory', 'Okta', 'MFA/SSO', 'access reviews'],
+  },
+  {
+    icon: 'globe',
+    name: 'Network, Systems & Cloud',
+    tags: ['TCP/IP', 'DNS', 'firewalls', 'IDS/IPS', 'Wireshark', 'tcpdump', 'Nessus', 'Nmap', 'Windows/Linux/macOS', 'AWS', 'Azure', 'Microsoft 365'],
+  },
+  {
+    icon: 'lock',
+    name: 'Frameworks & Ticketing',
+    tags: ['NIST CSF', 'NIST SP 800-171', 'PCI DSS', 'HIPAA', 'ServiceNow', 'Jira', 'ITIL'],
   },
 ]
 

@@ -4,6 +4,7 @@ const LINKS = [
   { href: '#profile', label: 'Profile' },
   { href: '#clearance', label: 'Clearance' },
   { href: '#experience', label: 'Experience' },
+  { href: '#projects', label: 'Projects' },
   { href: '#credentials', label: 'Credentials' },
   { href: '#contact', label: 'Contact' },
 ]
@@ -24,9 +25,6 @@ export default function Navbar() {
             </a>
           ))}
         </nav>
-        <span className="status-pill">
-          <span className="dot"></span> AVAILABLE FOR HIRE
-        </span>
         <button
           className="menu-btn"
           aria-label="Toggle menu"

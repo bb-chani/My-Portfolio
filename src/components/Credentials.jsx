@@ -21,8 +21,7 @@ const SEALS = {
 }
 
 const CERTS = [
-  { seal: 'medal', title: 'CompTIA Security+', status: 'Verified · Active' },
-  { seal: 'shield', title: 'CompTIA Cybersecurity Basics', status: 'Competency · Active' },
+  { seal: 'medal', title: 'CompTIA Security+', status: 'Active' },
   { seal: 'clock', title: 'Cisco CCNA', status: 'In progress · Expected 2026', prog: true },
 ]
 
@@ -44,7 +43,7 @@ export default function Credentials() {
         </div>
         <div className="edu-card reveal-up">
           <div className="lab">// Education</div>
-          <div className="deg">B.Sc. Computer Science</div>
+          <div className="deg">BSc Computer Science</div>
           <div className="sch">University of Strathmore</div>
         </div>
       </div>

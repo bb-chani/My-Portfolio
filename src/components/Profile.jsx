@@ -1,8 +1,8 @@
 import SectionHeading from "./SectionHeading";
 
 const STATS = [
-  { n: "7+", l: "Years in IT & security" },
-  { n: "3", l: "Certifications held / in progress" },
+  { n: "40+", l: "Alerts triaged daily" },
+  { n: "15%", l: "False-positive reduction" },
 ];
 
 export default function Profile() {
@@ -11,14 +11,14 @@ export default function Profile() {
       <SectionHeading index="01" title="Profile" />
       <div className="profile">
         <p className="reveal-up">
-          A CompTIA Security+ certified <b>Information Security Analyst</b> with
-          hands-on experience supporting identity and access management, user
-          provisioning, MFA, Microsoft&nbsp;365, Active Directory, and
-          Azure/Entra&nbsp;ID. I resolve access-related issues, run secure
-          onboarding and offboarding workflows, document technical processes,
-          and help users adopt secure technology with confidence. Known for{" "}
-          <b>clear communication</b>, sharp troubleshooting, and connecting real
-          business needs to practical, security-focused solutions.
+          Security+ certified <b>security analyst</b> running front-line security
+          operations for a global user base across time zones. Day to day, that
+          means triaging 40+ alerts across Splunk, Microsoft Sentinel,
+          CrowdStrike Falcon, and Defender for Endpoint, escalating real threats
+          with the logs and timeline already recorded, and writing the detections
+          that stop the same noise coming back. I cut false positives 15% through
+          SPL and KQL tuning and Sigma rule development, and I automate the
+          repetitive parts in Python.
         </p>
         <div className="stats">
           {STATS.map((s) => (
